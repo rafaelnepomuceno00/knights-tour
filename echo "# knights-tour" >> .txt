@@ -1,0 +1,1 @@
+echo "# knights-tour" >> README.md

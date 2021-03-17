@@ -1,0 +1,43 @@
+.board {
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.white {
+    flex:1;
+    background-color: rgb(111, 123, 177);
+}
+
+.black {
+    flex:1;
+    background-color: rgb(60, 45, 189);
+}
+.x{
+    font-size: 30px;
+    position: relative;
+    top: -15px;
+    text-align: center;
+    color :red;
+    display: none;
+    
+}
+
+.horse{
+    position: relative;
+    top: 15px;
+    left: 8px;
+    width: 50px;
+    display: none;
+}
+
+.pos{
+height: 65px;   
+width: 75px; 
+}
